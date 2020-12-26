@@ -1,0 +1,70 @@
+*{margin: 0px;}
+
+#header{
+	width:1100px;
+	height: 80px;
+	margin: 0px auto;
+}
+.logo{
+	padding: 20px 0 0 20px;
+}
+/*中间大div*/
+#mainer{background-color: #090F36; height: 420px;}
+/*中间第二大div*/
+.login_main{width: 1100px; margin: 0 auto; padding-top: 10px;}
+/*左边div*/
+.login_img{float: left;width: 400px; margin-top: 40px;}
+/*右边div*/
+.login_box{float: right; background-color: #FFFFFF;width: 400px; height: 400px; padding-left:60px;}
+/*百知科技设置*/
+.login_tit{
+	color:#3B3B3B ; font-size: 24px;height: 60px;padding-top:25px;font-family:"微软雅黑";
+}
+
+/*四个item选项*/
+.login_box .item{ height: 60px; margin-bottom: 8px;}
+
+/*两个输入框*/
+.login_box .item .input{
+	width: 300px; height: 50px;font-size: 15px;border: 1px #EFEFEF solid;
+	padding-left: 20px;
+}
+
+.login_box .item .input2{
+	width: 200px; height: 50px;font-size: 15px;border: 1px #EFEFEF solid;
+	padding-left: 20px;
+}
+
+.login_box .item .send{
+	width: 80px;height: 40px;background-color: #FFFFFF;border: 1px solid #E0E0E0;	
+	margin-top: -10px;font-size: 20px;color: #000000;
+}
+
+/*两个按钮*/
+.login_box .item .btn{
+	width: 321px;height: 50px;background-color: #006ABB;border: none;	
+	margin-top: -10px;font-size: 20px;color: #FFFFFF;
+}
+/*最下边*/
+.footbox{
+	text-align: center;padding-top: 20px;
+}
+.footbox a{
+	text-decoration: none;color: #000000;
+}
+/*
+.login_box .item{ line-height:46px; margin-bottom:8px; font-size:14px;}
+
+.login_box .item .input{ 
+	width:295px; height:44px; line-height:44px; font-size:14px; color:#333; 
+	border:1px #efefef solid; text-align:left; background:#ffffff; padding-left:43px; }
+
+.login_box .item .btn{width: 340px; height: 40px;background-color: #006ABB;color: #FFF;
+                     font-size: 20px; padding: 10px; border: none;cursor: pointer;}
+
+
+.footbox {text-align:center; padding:30px 0px;
+		 font-size:14px; color:#999999;}
+		 
+a{text-decoration: none;}
+*/
