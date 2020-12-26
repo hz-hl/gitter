@@ -9,14 +9,6 @@ import com.aliyuncs.exceptions.ServerException;
 import com.aliyuncs.http.MethodType;
 import com.aliyuncs.profile.DefaultProfile;
 
-/**
- * @ClassNamealiyun
- * @Author ${张有鹏}
- * @Description
- * @Date 2020/12/10 8:18
- * @Param
- * @return
- */
 public class AliyunConfig {
     public void aliyun(String username, String string){
         DefaultProfile profile = DefaultProfile.getProfile("cn-hangzhou", "LTAI4GAKz3gHifa4kBiRYY9E", "4oBTVd8ox4YhjoKVjaFkMTvp5oxxVg");

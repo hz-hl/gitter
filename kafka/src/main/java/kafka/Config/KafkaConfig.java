@@ -6,14 +6,7 @@ import org.apache.kafka.common.serialization.StringSerializer;
 import java.util.HashMap;
 import java.util.Map;
 
-/**
- * @ClassNamekafkaConfig
- * @Author ${张有鹏}
- * @Description
- * @Date 2020/12/10 8:17
- * @Param
- * @return
- */
+
 public class KafkaConfig {
 
     public void kafkaProducer(String stringkafka){
